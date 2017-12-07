@@ -5,3 +5,5 @@
 - Reverse String
 - Reverse Int
 - Palindrome
+- Max Char
+- Fizz Buzz

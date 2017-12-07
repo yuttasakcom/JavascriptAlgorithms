@@ -11,6 +11,10 @@
 //   return str.split('').reverse().join('') === str
 // }
 
+// function palindrome(str) {
+//   return str === str.split('').reverse().join('')
+// }
+
 function palindrome(str) {
   return str.split('').every((char, i) => char === str[str.length - i - 1])
 }
